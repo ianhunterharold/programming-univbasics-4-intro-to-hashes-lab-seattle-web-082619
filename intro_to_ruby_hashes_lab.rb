@@ -24,7 +24,7 @@ end
 
 def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
-  hashing_it_up = {key: "value"}
+  hashing_it_up = {key: value}
   return hashing_it_up
 end
 
