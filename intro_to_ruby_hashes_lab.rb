@@ -30,7 +30,8 @@ end
 
 def read_from_hash(hash, key)
 hash = {}
-  hash[:a] = 'a'
+  hash[:key] = 'value'
+  return hash[:key]
 }
 end
 
